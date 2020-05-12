@@ -1,0 +1,12 @@
+name: CommandDisabler
+version: ${project.version}
+main: me.bcof.commanddisabler.CommandDisabler
+api-version: 1.13
+authors: [Bcof]
+description: For Cortex discord challenge
+website: bcof.co.uk
+commands:
+  reloadConfig:
+    description: reloads the config
+    permission: op
+    permission-message: You do not have permission
